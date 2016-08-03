@@ -13,6 +13,14 @@
 		4FA17DEC1D5239540031C18D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA17DEA1D5239540031C18D /* Main.storyboard */; };
 		4FA17DEE1D5239540031C18D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA17DED1D5239540031C18D /* Assets.xcassets */; };
 		4FA17DF11D5239540031C18D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA17DEF1D5239540031C18D /* LaunchScreen.storyboard */; };
+		4FA17DFB1D523ABC0031C18D /* Duck.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA17DFA1D523ABC0031C18D /* Duck.m */; };
+		4FA17DFF1D523AFA0031C18D /* FlyWithWings.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA17DFE1D523AFA0031C18D /* FlyWithWings.m */; };
+		4FA17E031D523B2A0031C18D /* Quack.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA17E021D523B2A0031C18D /* Quack.m */; };
+		4FA17E091D523B4E0031C18D /* MuteQuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA17E081D523B4E0031C18D /* MuteQuck.m */; };
+		4FA17E0C1D523B6A0031C18D /* FlyNoWay.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA17E0B1D523B6A0031C18D /* FlyNoWay.m */; };
+		4FA17E0F1D523D3E0031C18D /* NormalDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA17E0E1D523D3E0031C18D /* NormalDuck.m */; };
+		4FA17E121D523F940031C18D /* MuteDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA17E111D523F940031C18D /* MuteDuck.m */; };
+		4FA17E171D5242090031C18D /* Strategy.md in Sources */ = {isa = PBXBuildFile; fileRef = 4FA17E161D5242090031C18D /* Strategy.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,23 @@
 		4FA17DED1D5239540031C18D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FA17DF01D5239540031C18D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FA17DF21D5239540031C18D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FA17DF91D523ABC0031C18D /* Duck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Duck.h; sourceTree = "<group>"; };
+		4FA17DFA1D523ABC0031C18D /* Duck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Duck.m; sourceTree = "<group>"; };
+		4FA17DFC1D523AE90031C18D /* FlyBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyBehavior.h; sourceTree = "<group>"; };
+		4FA17DFD1D523AFA0031C18D /* FlyWithWings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyWithWings.h; sourceTree = "<group>"; };
+		4FA17DFE1D523AFA0031C18D /* FlyWithWings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyWithWings.m; sourceTree = "<group>"; };
+		4FA17E001D523B0D0031C18D /* QuackBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuackBehavior.h; sourceTree = "<group>"; };
+		4FA17E011D523B2A0031C18D /* Quack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quack.h; sourceTree = "<group>"; };
+		4FA17E021D523B2A0031C18D /* Quack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quack.m; sourceTree = "<group>"; };
+		4FA17E071D523B4E0031C18D /* MuteQuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuteQuck.h; sourceTree = "<group>"; };
+		4FA17E081D523B4E0031C18D /* MuteQuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuteQuck.m; sourceTree = "<group>"; };
+		4FA17E0A1D523B6A0031C18D /* FlyNoWay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyNoWay.h; sourceTree = "<group>"; };
+		4FA17E0B1D523B6A0031C18D /* FlyNoWay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyNoWay.m; sourceTree = "<group>"; };
+		4FA17E0D1D523D3E0031C18D /* NormalDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalDuck.h; sourceTree = "<group>"; };
+		4FA17E0E1D523D3E0031C18D /* NormalDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalDuck.m; sourceTree = "<group>"; };
+		4FA17E101D523F940031C18D /* MuteDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuteDuck.h; sourceTree = "<group>"; };
+		4FA17E111D523F940031C18D /* MuteDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuteDuck.m; sourceTree = "<group>"; };
+		4FA17E161D5242090031C18D /* Strategy.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Strategy.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +67,7 @@
 		4FA17DD51D5239540031C18D = {
 			isa = PBXGroup;
 			children = (
+				4FA17DF81D523AA80031C18D /* Strategy */,
 				4FA17DE01D5239540031C18D /* Demo_DesignPattern */,
 				4FA17DDF1D5239540031C18D /* Products */,
 			);
@@ -77,6 +103,54 @@
 				4FA17DE21D5239540031C18D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FA17DF81D523AA80031C18D /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				4FA17E161D5242090031C18D /* Strategy.md */,
+				4FA17E151D5241300031C18D /* Duck */,
+				4FA17E141D5241230031C18D /* FlyBehavior */,
+				4FA17E131D5241190031C18D /* QuackBehavior */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		4FA17E131D5241190031C18D /* QuackBehavior */ = {
+			isa = PBXGroup;
+			children = (
+				4FA17E001D523B0D0031C18D /* QuackBehavior.h */,
+				4FA17E011D523B2A0031C18D /* Quack.h */,
+				4FA17E021D523B2A0031C18D /* Quack.m */,
+				4FA17E071D523B4E0031C18D /* MuteQuck.h */,
+				4FA17E081D523B4E0031C18D /* MuteQuck.m */,
+			);
+			name = QuackBehavior;
+			sourceTree = "<group>";
+		};
+		4FA17E141D5241230031C18D /* FlyBehavior */ = {
+			isa = PBXGroup;
+			children = (
+				4FA17DFC1D523AE90031C18D /* FlyBehavior.h */,
+				4FA17DFD1D523AFA0031C18D /* FlyWithWings.h */,
+				4FA17DFE1D523AFA0031C18D /* FlyWithWings.m */,
+				4FA17E0A1D523B6A0031C18D /* FlyNoWay.h */,
+				4FA17E0B1D523B6A0031C18D /* FlyNoWay.m */,
+			);
+			name = FlyBehavior;
+			sourceTree = "<group>";
+		};
+		4FA17E151D5241300031C18D /* Duck */ = {
+			isa = PBXGroup;
+			children = (
+				4FA17DF91D523ABC0031C18D /* Duck.h */,
+				4FA17DFA1D523ABC0031C18D /* Duck.m */,
+				4FA17E0D1D523D3E0031C18D /* NormalDuck.h */,
+				4FA17E0E1D523D3E0031C18D /* NormalDuck.m */,
+				4FA17E101D523F940031C18D /* MuteDuck.h */,
+				4FA17E111D523F940031C18D /* MuteDuck.m */,
+			);
+			name = Duck;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +223,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FA17E171D5242090031C18D /* Strategy.md in Sources */,
+				4FA17DFB1D523ABC0031C18D /* Duck.m in Sources */,
 				4FA17DE91D5239540031C18D /* ViewController.m in Sources */,
 				4FA17DE61D5239540031C18D /* AppDelegate.m in Sources */,
+				4FA17E031D523B2A0031C18D /* Quack.m in Sources */,
+				4FA17E0F1D523D3E0031C18D /* NormalDuck.m in Sources */,
+				4FA17E091D523B4E0031C18D /* MuteQuck.m in Sources */,
+				4FA17DFF1D523AFA0031C18D /* FlyWithWings.m in Sources */,
+				4FA17E121D523F940031C18D /* MuteDuck.m in Sources */,
+				4FA17E0C1D523B6A0031C18D /* FlyNoWay.m in Sources */,
 				4FA17DE31D5239540031C18D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +348,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Demo_DesignPattern/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tickCoder.Demo-DesignPattern";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -277,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Demo_DesignPattern/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tickCoder.Demo-DesignPattern";
 				PRODUCT_NAME = "$(TARGET_NAME)";
