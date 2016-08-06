@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4FA17DE31D5239540031C18D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA17DE21D5239540031C18D /* main.m */; };
 		4FA17DE61D5239540031C18D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA17DE51D5239540031C18D /* AppDelegate.m */; };
-		4FA17DE91D5239540031C18D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA17DE81D5239540031C18D /* ViewController.m */; };
+		4FA17DE91D5239540031C18D /* StrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA17DE81D5239540031C18D /* StrategyViewController.m */; };
 		4FA17DEC1D5239540031C18D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA17DEA1D5239540031C18D /* Main.storyboard */; };
 		4FA17DEE1D5239540031C18D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA17DED1D5239540031C18D /* Assets.xcassets */; };
 		4FA17DF11D5239540031C18D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA17DEF1D5239540031C18D /* LaunchScreen.storyboard */; };
@@ -21,6 +21,12 @@
 		4FA17E0F1D523D3E0031C18D /* NormalDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA17E0E1D523D3E0031C18D /* NormalDuck.m */; };
 		4FA17E121D523F940031C18D /* MuteDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA17E111D523F940031C18D /* MuteDuck.m */; };
 		4FA17E171D5242090031C18D /* Strategy.md in Sources */ = {isa = PBXBuildFile; fileRef = 4FA17E161D5242090031C18D /* Strategy.md */; };
+		4FF4ADF21D562DCE0087EDF3 /* Observer.md in Sources */ = {isa = PBXBuildFile; fileRef = 4FF4ADF11D562DCE0087EDF3 /* Observer.md */; };
+		4FF4ADF51D562DE00087EDF3 /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF4ADF41D562DE00087EDF3 /* WeatherData.m */; };
+		4FF4ADF81D562E8B0087EDF3 /* ObserverCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF4ADF71D562E8B0087EDF3 /* ObserverCenter.m */; };
+		4FF4ADFB1D56326A0087EDF3 /* ObserverA.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF4ADFA1D56326A0087EDF3 /* ObserverA.m */; };
+		4FF4ADFE1D5632730087EDF3 /* ObserverB.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF4ADFD1D5632730087EDF3 /* ObserverB.m */; };
+		4FF4AE011D5635700087EDF3 /* ObserverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF4AE001D5635700087EDF3 /* ObserverViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +34,8 @@
 		4FA17DE21D5239540031C18D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4FA17DE41D5239540031C18D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4FA17DE51D5239540031C18D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4FA17DE71D5239540031C18D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4FA17DE81D5239540031C18D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4FA17DE71D5239540031C18D /* StrategyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrategyViewController.h; sourceTree = "<group>"; };
+		4FA17DE81D5239540031C18D /* StrategyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyViewController.m; sourceTree = "<group>"; };
 		4FA17DEB1D5239540031C18D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FA17DED1D5239540031C18D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FA17DF01D5239540031C18D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,17 @@
 		4FA17E101D523F940031C18D /* MuteDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuteDuck.h; sourceTree = "<group>"; };
 		4FA17E111D523F940031C18D /* MuteDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuteDuck.m; sourceTree = "<group>"; };
 		4FA17E161D5242090031C18D /* Strategy.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Strategy.md; sourceTree = "<group>"; };
+		4FF4ADF11D562DCE0087EDF3 /* Observer.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Observer.md; sourceTree = "<group>"; };
+		4FF4ADF31D562DE00087EDF3 /* WeatherData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherData.h; sourceTree = "<group>"; };
+		4FF4ADF41D562DE00087EDF3 /* WeatherData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherData.m; sourceTree = "<group>"; };
+		4FF4ADF61D562E8B0087EDF3 /* ObserverCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObserverCenter.h; sourceTree = "<group>"; };
+		4FF4ADF71D562E8B0087EDF3 /* ObserverCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObserverCenter.m; sourceTree = "<group>"; };
+		4FF4ADF91D56326A0087EDF3 /* ObserverA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObserverA.h; sourceTree = "<group>"; };
+		4FF4ADFA1D56326A0087EDF3 /* ObserverA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObserverA.m; sourceTree = "<group>"; };
+		4FF4ADFC1D5632730087EDF3 /* ObserverB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObserverB.h; sourceTree = "<group>"; };
+		4FF4ADFD1D5632730087EDF3 /* ObserverB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObserverB.m; sourceTree = "<group>"; };
+		4FF4ADFF1D5635700087EDF3 /* ObserverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObserverViewController.h; sourceTree = "<group>"; };
+		4FF4AE001D5635700087EDF3 /* ObserverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObserverViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +84,7 @@
 		4FA17DD51D5239540031C18D = {
 			isa = PBXGroup;
 			children = (
+				4FF4ADF01D562DCE0087EDF3 /* Observer */,
 				4FA17DF81D523AA80031C18D /* Strategy */,
 				4FA17DE01D5239540031C18D /* Demo_DesignPattern */,
 				4FA17DDF1D5239540031C18D /* Products */,
@@ -86,8 +104,10 @@
 			children = (
 				4FA17DE41D5239540031C18D /* AppDelegate.h */,
 				4FA17DE51D5239540031C18D /* AppDelegate.m */,
-				4FA17DE71D5239540031C18D /* ViewController.h */,
-				4FA17DE81D5239540031C18D /* ViewController.m */,
+				4FA17DE71D5239540031C18D /* StrategyViewController.h */,
+				4FA17DE81D5239540031C18D /* StrategyViewController.m */,
+				4FF4ADFF1D5635700087EDF3 /* ObserverViewController.h */,
+				4FF4AE001D5635700087EDF3 /* ObserverViewController.m */,
 				4FA17DEA1D5239540031C18D /* Main.storyboard */,
 				4FA17DED1D5239540031C18D /* Assets.xcassets */,
 				4FA17DEF1D5239540031C18D /* LaunchScreen.storyboard */,
@@ -151,6 +171,22 @@
 				4FA17E111D523F940031C18D /* MuteDuck.m */,
 			);
 			name = Duck;
+			sourceTree = "<group>";
+		};
+		4FF4ADF01D562DCE0087EDF3 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				4FF4ADF11D562DCE0087EDF3 /* Observer.md */,
+				4FF4ADF31D562DE00087EDF3 /* WeatherData.h */,
+				4FF4ADF41D562DE00087EDF3 /* WeatherData.m */,
+				4FF4ADF61D562E8B0087EDF3 /* ObserverCenter.h */,
+				4FF4ADF71D562E8B0087EDF3 /* ObserverCenter.m */,
+				4FF4ADF91D56326A0087EDF3 /* ObserverA.h */,
+				4FF4ADFA1D56326A0087EDF3 /* ObserverA.m */,
+				4FF4ADFC1D5632730087EDF3 /* ObserverB.h */,
+				4FF4ADFD1D5632730087EDF3 /* ObserverB.m */,
+			);
+			path = Observer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,15 +259,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FF4ADFE1D5632730087EDF3 /* ObserverB.m in Sources */,
 				4FA17E171D5242090031C18D /* Strategy.md in Sources */,
 				4FA17DFB1D523ABC0031C18D /* Duck.m in Sources */,
-				4FA17DE91D5239540031C18D /* ViewController.m in Sources */,
+				4FF4ADF21D562DCE0087EDF3 /* Observer.md in Sources */,
+				4FA17DE91D5239540031C18D /* StrategyViewController.m in Sources */,
+				4FF4ADF81D562E8B0087EDF3 /* ObserverCenter.m in Sources */,
+				4FF4AE011D5635700087EDF3 /* ObserverViewController.m in Sources */,
 				4FA17DE61D5239540031C18D /* AppDelegate.m in Sources */,
 				4FA17E031D523B2A0031C18D /* Quack.m in Sources */,
 				4FA17E0F1D523D3E0031C18D /* NormalDuck.m in Sources */,
+				4FF4ADFB1D56326A0087EDF3 /* ObserverA.m in Sources */,
 				4FA17E091D523B4E0031C18D /* MuteQuck.m in Sources */,
 				4FA17DFF1D523AFA0031C18D /* FlyWithWings.m in Sources */,
 				4FA17E121D523F940031C18D /* MuteDuck.m in Sources */,
+				4FF4ADF51D562DE00087EDF3 /* WeatherData.m in Sources */,
 				4FA17E0C1D523B6A0031C18D /* FlyNoWay.m in Sources */,
 				4FA17DE31D5239540031C18D /* main.m in Sources */,
 			);
@@ -348,7 +390,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Demo_DesignPattern/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tickCoder.Demo-DesignPattern";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,7 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Demo_DesignPattern/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tickCoder.Demo-DesignPattern";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -386,6 +428,7 @@
 				4FA17DF71D5239540031C18D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

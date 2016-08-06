@@ -6,7 +6,7 @@
 //  Copyright © 2016 tickCoder. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "StrategyViewController.h"
 #import "NormalDuck.h"
 #import "MuteDuck.h"
 #import "FlyWithWings.h"
@@ -14,14 +14,14 @@
 #import "Quack.h"
 #import "MuteQuck.h"
 
-@interface ViewController ()
+@interface StrategyViewController ()
 @property (nonatomic, strong) FlyWithWings *flyWithWings;
 @property (nonatomic, strong) FlyNoWay *flyNoWay;
 @property (nonatomic, strong) Quack *quck;
 @property (nonatomic, strong) MuteQuck *muteQuck;
 @end
 
-@implementation ViewController
+@implementation StrategyViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
